@@ -1,0 +1,16 @@
+{
+  "id": "2191390",
+  "name": "sx_icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8358224",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    }
+  ]
+}

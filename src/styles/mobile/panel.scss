@@ -1,0 +1,39 @@
+.app-panel-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .header{
+        height: 50px;
+    }
+
+    .main{
+        flex: 1;
+        overflow-y: scroll;
+        padding: 10px;
+
+        .card{
+            border-radius: 8px;
+            box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+            background: #fff;
+            height: 100%;
+            overflow-y: scroll;
+
+            .application {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, 25%);
+                .mode {
+                  text-align: center;
+                  padding: 10px 0;
+                  .text {
+                    font-size: 12px;
+                    margin-top: 3px;
+                  }
+                  .icon i{
+                      font-size: 1.6rem;
+                  }
+                }
+            }
+        }
+    }
+}

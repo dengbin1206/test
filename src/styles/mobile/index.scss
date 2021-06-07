@@ -1,0 +1,34 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+.sx_home_box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    .sx_home_header{
+        height: 60px;
+        border-bottom:1px solid #ccc;
+    }
+    .sx_home_main{
+        flex:1;
+        overflow: auto;
+        .sx_main_workbench{
+            margin-top: 20px;
+            display: flex;
+            .sx_workbench_db{
+                width: 20%;
+                margin:0 2%;
+                i{
+                    background: rgb(73, 157, 243) !important;
+                    color: #fff !important;
+                }
+                .el-badge__content.is-fixed{
+                    right:20px !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,110 @@
+// 全局变量
+@import './variables.scss';
+// ele样式覆盖
+@import './element-ui.scss';
+// 顶部右侧显示
+@import './top.scss';
+// 导航标签
+@import './tags.scss';
+// 工具类函数
+@import './mixin.scss';
+// 侧面导航栏
+@import './sidebar.scss';
+// 动画
+@import './animate/vue-transition.scss';
+//主题
+@import './theme/index.scss';
+//适配
+@import './media.scss';
+//通用配置
+@import './normalize.scss';
+
+//移动端css
+@import './mobile/panel.scss';
+
+
+a{
+  text-decoration: none;
+  color:#333;
+}
+*{
+  outline: none;
+}
+.avue--view .el-input.is-disabled .el-input__inner,.avue--view .el-textarea.is-disabled .el-textarea__inner{
+  background-color:rgb(245, 245, 245) !important;
+  border:1px solid rgb(245, 245, 245) !important;
+  color:#696969 !important;
+}
+.el-input.is-disabled .el-input__inner,.el-textarea.is-disabled .el-textarea__inner,.el-radio__input.is-disabled+span.el-radio__label{
+  color:#696969 !important;
+}
+.el-select , .el-date-editor{
+  width:100% !important;
+}
+.el-table th {
+  color:rgba(0,0,0,.85);
+  font-weight: bold;
+  font-size: 12px;
+}
+.iconfont{
+  // font-size:12px !important;
+  margin-right:5px !important;
+}
+.el-tabs__header{
+  margin: 0 !important;
+}
+.el-tabs--border-card>.el-tabs__content{
+  padding:0 0 0 0  !important;
+}
+ // 滚动条的宽度
+ /deep/ .el-table__body-wrapper::-webkit-scrollbar {
+  width: 10px; // 横向滚动条
+  height:10px; // 纵向滚动条 必写
+}
+.el-scrollbar {
+  > .el-scrollbar__bar {
+      opacity: 1 !important;
+  }
+}
+// // 滚动条的滑块
+// /deep/ .el-table__body-wrapper::-webkit-scrollbar-thumb {
+//   background-color: #ddd;
+//   border-radius: 3px;
+// }
+
+// //滚动条样式
+// @include scrollBar;
+
+
+@media only screen and (max-width: 767.99px) {
+  input[disabled],input:disabled,input.disabled {
+    color: #000!important;
+    -webkit-text-fill-color: #000;
+    -webkit-opacity: 1;
+    opacity: 1;
+  }
+}
+
+.vxe-table--render-default .vxe-body--column.col--valid-error .vxe-cell--valid .vxe-cell--valid-msg{
+    display: inline-block;
+    border-radius: 4px;
+    padding: 2px 12px !important;
+    color:#fff !important;
+    background-color: rgba(0,0,0,0.8) !important;
+    pointer-events: auto;
+  }
+
+  .vxe-table--render-default .vxe-body--column.col--valid-error .vxe-cell--valid{
+    z-index: 99999 !important;
+  }
+
+  .van-collapse-item__content{
+    padding: unset !important;
+    font-size: 12px;
+  }
+
+
+  // 防止选择 图标 按钮变大
+.el-button .iconfont{
+  font-size: unset !important;
+}

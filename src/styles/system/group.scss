@@ -1,0 +1,55 @@
+.sx_group{
+    .el-col{
+     height: 40px;
+     margin: 0;
+     .el-form-item{
+        width: 100%;
+        margin-bottom: 0;
+        .el-form-item__content{
+           width: 65%;
+           .el-select{
+              width: 100%;
+              input{
+                 height: 32px;
+                 line-height: 32px;
+              }
+           }
+        }
+     }
+  }
+  }
+  .sx_dialog{
+     .el-dialog__header{
+        border-bottom: 1px solid #ccc;
+     }
+     .el-col{
+     margin-bottom: 10px;
+     .el-form-item{
+        width: 100%;
+        .el-form-item__content{
+           width: 65%;
+           .avue-input-tree input{
+              height: 32px !important;
+           }
+           .el-select{
+              width: 100%;
+              input{
+                 height: auto;
+              }
+           }
+        }
+     }
+  }
+  }
+
+  .sx_group .el-table__header th{
+     padding: 0 !important;
+  }
+  .sx_add_form .el-form-item__content{
+     width: 70% !important;
+  }
+  .sx_group .cell{
+      button:nth-child(3){
+        color:red;
+      }
+    }

@@ -1,0 +1,40 @@
+html,body {
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.el-header {
+  text-align: center;
+  line-height: 60px;
+}
+.el-footer {
+  text-align: center;
+  line-height: 20px !important;
+}
+.el-timeline-item__node--normal{
+  width: 20px;
+  height: 20px;
+}
+.el-timeline-item__tail{
+  left:8px;
+}
+.sx_copy_style{
+  width: 95%;
+  height: auto;
+  margin:0 auto;
+
+}
+.sx_copy_style .sx_kp_style{
+    border:1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgb(211, 208, 208)
+}
+
+h3{
+  margin:7px 0;
+}
+.el-select-dropdown__wrap{
+   max-height: 160px;
+ }

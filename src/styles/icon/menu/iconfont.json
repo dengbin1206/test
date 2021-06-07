@@ -1,0 +1,23 @@
+{
+  "id": "2191390",
+  "name": "sx_icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14328019",
+      "name": "功能图标-26",
+      "font_class": "gongnengtubiao-26",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "3885970",
+      "name": "菜单",
+      "font_class": "_caidan",
+      "unicode": "e827",
+      "unicode_decimal": 59431
+    }
+  ]
+}

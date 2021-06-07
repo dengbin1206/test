@@ -1,0 +1,6 @@
+.avue--detail .el-checkbox{
+    display: inline-block !important;
+  }
+  .avue--detail .el-checkbox .el-checkbox__inner {
+      display: inline-block;
+  }

@@ -1,0 +1,41 @@
+.sx_dept_basic {
+    width: 100%;
+    height: 100%;
+    margin: 0 6px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .sx_deptTop {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  .sx_deptBottom {
+    margin-top: 10px;
+    width: 40%;
+  }
+  .sx_deptBottomDialog {
+    width: 80%;
+  }
+  .sx_deptBottomDialog .el-select {
+    width: 100%;
+  }
+  .sx_deptmain {
+    width: 100%;
+    padding: 10px;
+  }
+  .sx_deptBottom .el-form-item {
+    margin-top: -5px !important;
+  }
+  .sx_deptBottomDialog .el-form-item {
+    margin-top: -5px !important;
+  }
+  .sx_deptBottom .el-select {
+    width: 100%;
+  }
+  .sx_dept_dialog .el-dialog__body {
+    padding: 10px 20px 0 20px !important;
+  }
+  .el-dialog__header{
+    border-bottom:1px solid #f0f0f0; 
+  }

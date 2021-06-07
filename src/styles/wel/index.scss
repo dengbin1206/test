@@ -1,0 +1,102 @@
+/deep/.main-content {
+    height: 550px !important;
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 20px;
+      border-bottom: 1px solid #ebeef5;
+      .title {
+        font-weight: 500;
+      }
+    }
+  }
+  .show-case {
+    height: calc(550px - 138px) !important;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      width: 0px !important;
+    }
+  }
+  
+  .todoList {
+    margin-top: 10px;
+    padding: 10px 0;
+    overflow-y: auto;
+    height: 440px;
+  
+    .empty {
+      margin-top: 15%;
+    }
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-bottom: 1px solid #ebeef5;
+    .title {
+      font-weight: 500;
+    }
+  }
+  
+  /deep/.el-card__body {
+    padding: 3px 0 !important;
+  }
+  
+  .container {
+    height: calc(100% - 40px);
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  
+  .carousel{
+    height: calc(100% - 39px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  
+    .handleLeft, .handleRight{
+      width: 30px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+  
+      i{
+        color: #0079fe;
+        font-weight: 500;
+      }
+    }
+  
+    .images{
+      width: 780px;
+      height: 60px;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+
+      &::-webkit-scrollbar {
+        width: 0px !important;
+        height: 0px !important;
+      }
+  
+      div{
+        display: inline-block;
+        width: 60px;
+        height: 100%;
+        border-radius: 30%;
+        border: 1px solid #dcdfe6;
+        margin-right: 20px;
+        text-align: center;
+        background-image: url('../../../public/img/bg/error.png');
+        background-size: contain;
+      }
+    }
+  }

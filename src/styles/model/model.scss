@@ -1,0 +1,34 @@
+.sx_model_scss{
+  .el-form-item{
+  width: 100% !important;
+  .el-form-item__content{
+      width: 80% !important;
+  }
+}
+}
+.sx_model_cell{
+  .cell{
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      text-align: center;
+  }
+  .el-checkbox{
+      margin-right: 0;
+  }
+}
+.sx_model_search{
+  .el-form-item{
+  width: 100% !important;
+  .el-form-item__content{
+      width: 70% !important;
+  }
+}
+}
+.sx_dict_search{
+  .el-form-item{
+    width: 100% !important;
+    .el-form-item__content{
+        width: 60% !important;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.sx_menu_style .cell button:nth-child(3) {
+  color: red;
+}
+
+.sx_dialog .el-select {
+  width: 100% !important;
+}
+
+.sx_dialog .avue-form__row {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.sx_dialog .sx_icon {
+  width: 100% !important;
+}
+
+.sx_dialog .sx_icon .avue-form__item-- {
+  margin-bottom: 0 !important;
+}
+
+.sx_dialog .sx_icon .sx_icon .avue-form {
+  height: 32px !important;
+}
+
+.sx_dialog .sx_icon .avue-form__menu {
+  padding: 0 !important;
+}
+
+.sx_menu_style .el-form-item--mini.el-form-item, .el-form-item--small.el-form-item {
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+.el-select-dropdown__item.selected {
+  font-weight: 400 !important;
+}
+
+.sx_menu_style .el-col {
+  height: 40px;
+  margin: 0;
+}
+
+.sx_menu_style .el-col .el-form-item {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.sx_menu_style .el-col .el-form-item .el-form-item__content {
+  width: 65%;
+}
+
+.sx_menu_style .el-col .el-form-item .el-form-item__content .el-select {
+  width: 100%;
+}
+
+.sx_menu_style .el-col .el-form-item .el-form-item__content .el-select input {
+  height: 32px;
+  line-height: 32px;
+}
+
+.sx_menu_style .el-table .el-table--small th {
+  padding: 0 !important;
+}

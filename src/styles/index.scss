@@ -1,0 +1,53 @@
+
+  .sx_search-form{
+    width:100%;
+    position:relative;
+  }
+  .sx_search-form .el-button-group {
+    display: flex;
+  }
+  
+  .sx_search-form .el-form-item__content {
+    width: 70% !important;
+  }
+  .sx_search-form .el-form-item {
+    width: 100%;
+  }
+  .sx_search-form .el-row,
+  .sx_search-form .el-col,
+  .sx_search-form .el-form-item {
+    height: 35px;
+  }
+
+  .sx_search-form .el-col ,.sx_search-form .el-row {
+    margin-bottom: 2px;
+  }
+  .sx_search-right{
+    position:absolute;
+    top:0px;
+    right:5px;
+  }
+  .sx_post_table-space{
+    margin-top:10px;
+  }
+  .avue-view{
+    padding: 0 3px !important;
+  }
+  .el-card__body{
+    padding: 10px !important;
+  }
+  .el-table__header tr,
+        .el-table__header th {
+            padding: 0;
+            height: 40px;
+            line-height: 40px;
+        }
+        .el-table__body tr,
+        .el-table__body td {
+            padding: 0;
+            height: 40px;
+            line-height: 40px;
+        }
+        .avue--view  .el-input.is-disabled .el-input__inner ,.avue--view .el-textarea.is-disabled .el-textarea__inner {
+          background-color: #F5F7FA;
+      }  
